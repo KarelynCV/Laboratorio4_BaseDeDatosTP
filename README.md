@@ -19,6 +19,7 @@ Manejo de excepciones en PL/pgSQL
 
 Contenido del repositorio
 cambios.sql
+script.sql
 
 Este archivo contiene todo el código necesario para:
 
