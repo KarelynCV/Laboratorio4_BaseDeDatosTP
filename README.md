@@ -1,18 +1,70 @@
-## Getting Started
+Laboratorio 4 – Base de Datos
+Programación Declarativa / Técnico de Programación
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Estudiante: Karelyn Caicedo Vélez
+Año: 2025
 
-## Folder Structure
+Descripción
 
-The workspace contains two folders by default, where:
+Este repositorio contiene la solución al Examen / Laboratorio 4 del curso de Programación Declarativa, donde se trabaja con bases de datos en PostgreSQL bajo un enfoque declarativo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El objetivo del laboratorio es aplicar:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Conceptos algorítmicos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Lógica declarativa
 
-## Dependency Management
+Uso de SQL
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Validación e inserción de datos
+
+Manejo de excepciones en PL/pgSQL
+
+Contenido del repositorio
+cambios.sql
+
+Este archivo contiene todo el código necesario para:
+
+Crear las tablas moneda y cambio
+Insertar 4 monedas si no existen (USD, EUR, COP, MXN)
+Generar automáticamente los cambios diarios de los últimos 2 meses
+Validar si el cambio ya existe para actualizarlo
+Insertar el cambio si no existe
+Utilizar PL/pgSQL con manejo de excepciones
+Mantener integridad y consistencia de datos
+
+El script se ejecuta completamente en PostgreSQL.
+
+Cómo ejecutar el script
+
+Puedes correr cambios.sql de estas dos maneras:
+
+1️. pgAdmin 4
+
+Abrir pgAdmin
+
+Crear o seleccionar una base de datos
+
+Botón Query Tool
+
+Copiar y pegar el contenido del archivo
+
+Ejecutar
+
+2️. Visual Studio Code (SQLTools)
+
+Instalar extensiones:
+
+SQLTools
+
+SQLTools PostgreSQL Driver
+
+Crear una conexión a PostgreSQL
+
+Abrir cambios.sql
+
+Ejecutarlo con Run Selected Query
+
+Estado del proyecto
+
+Finalizado y funcionando correctamente.
