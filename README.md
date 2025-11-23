@@ -1,9 +1,6 @@
 Laboratorio 4 – Base de Datos
 Programación Declarativa / Técnico de Programación
 
-Estudiante: Karelyn Caicedo Vélez
-Año: 2025
-
 Descripción
 
 Este repositorio contiene la solución al Examen / Laboratorio 4 del curso de Programación Declarativa, donde se trabaja con bases de datos en PostgreSQL bajo un enfoque declarativo.
