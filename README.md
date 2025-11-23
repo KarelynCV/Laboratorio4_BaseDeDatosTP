@@ -35,7 +35,7 @@ El script se ejecuta completamente en PostgreSQL.
 
 Cómo ejecutar el script
 
-Puedes correr cambios.sql de estas dos maneras:
+Puedes correr cambios.sql y/o script.sql de estas dos maneras:
 
 1️. pgAdmin 4
 
@@ -59,7 +59,7 @@ SQLTools PostgreSQL Driver
 
 Crear una conexión a PostgreSQL
 
-Abrir cambios.sql
+Abrir cambios.sql y/o script.sql
 
 Ejecutarlo con Run Selected Query
 
